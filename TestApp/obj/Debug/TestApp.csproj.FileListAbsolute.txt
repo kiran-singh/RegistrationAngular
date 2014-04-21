@@ -1,0 +1,5 @@
+D:\Dropbox\Projects\RegistrationAngular\TestApp\bin\Debug\TestApp.exe.config
+D:\Dropbox\Projects\RegistrationAngular\TestApp\bin\Debug\TestApp.exe
+D:\Dropbox\Projects\RegistrationAngular\TestApp\bin\Debug\TestApp.pdb
+D:\Dropbox\Projects\RegistrationAngular\TestApp\obj\Debug\TestApp.exe
+D:\Dropbox\Projects\RegistrationAngular\TestApp\obj\Debug\TestApp.pdb

@@ -1,0 +1,65 @@
+﻿    .classHeading
+    {
+        text-align: center;
+    }
+
+    .classCell
+    {
+        text-align: center;
+        width: 10%;
+        font-size: 0.9em;
+        background-clip: padding-box;
+        border-radius: 5px;
+    }
+
+    .classTable
+    {
+        table-layout: fixed;
+        border: white;
+        border-collapse: separate;
+        border-spacing: 2px;
+    }
+
+    .red
+    {
+        background-color: red;
+    }
+
+    .blue
+    {
+        background-color: blue;
+    }
+
+    .green
+    {
+        background-color: green;
+    }
+
+    .yellow 
+    {
+        background-color: yellow;
+    }
+
+    .brown 
+    {
+        background-color: brown;
+    }
+
+    .purple 
+    {
+        background-color: purple;
+    }
+
+    .cellHover:hover
+    {
+        background-color: gray;
+        cursor: pointer;
+    }
+
+    .periodCell {
+        text-align: center; 
+        width: 10%; 
+        font-size: 0.9em; 
+        background-clip: padding-box; 
+        border-radius: 5px;
+    }

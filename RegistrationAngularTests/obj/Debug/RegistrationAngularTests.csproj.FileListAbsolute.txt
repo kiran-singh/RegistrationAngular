@@ -1,0 +1,10 @@
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\bin\Debug\RegistrationAngularTests.dll
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\bin\Debug\RegistrationAngularTests.pdb
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\obj\Debug\RegistrationAngularTests.csprojResolveAssemblyReference.cache
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\obj\Debug\RegistrationAngularTests.dll
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\obj\Debug\RegistrationAngularTests.pdb
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\bin\Debug\nunit.framework.dll
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\bin\Debug\nunit.framework.xml
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\bin\Debug\AutoMapper.Net4.dll
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\bin\Debug\AutoMapper.dll
+D:\Dropbox\Projects\RegistrationAngular\RegistrationAngularTests\bin\Debug\AutoMapper.xml

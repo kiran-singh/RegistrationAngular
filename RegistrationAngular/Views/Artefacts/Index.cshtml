@@ -1,0 +1,10 @@
+﻿@model RegistrationAngular.Models.Artefact
+
+@{
+    Layout = "~/Views/Artefacts/ArtefactLayout.cshtml";
+}
+
+@section Barcode{
+    @Html.Partial(@Model.BarcodePartial, @Model.Barcode)
+    <p>Item: @Model.Item</p>
+}

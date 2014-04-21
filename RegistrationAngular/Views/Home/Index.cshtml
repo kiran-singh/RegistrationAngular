@@ -1,0 +1,66 @@
+﻿<html ng-app="registrationModule">
+<head>
+    <script src="/Scripts/angular.js"></script>
+    <title>College Registration</title>
+    <link href="/Content/Site.css" rel="stylesheet" />
+    <link href="/Content/Classes.css" rel="stylesheet" />
+    <link href="/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/bootstrap/bootstrap-slate.min.css" rel="stylesheet" />
+    <script src="/Scripts/angular-route.js"></script>
+    <script src="/Scripts/angular-resource.js"></script>
+    <script src="/Scripts/jquery-2.0.3.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/registration-module.js"></script>
+    <script src="/Scripts/Courses/courses-repository.js"></script>
+    <script src="/Scripts/Courses/courses-controller.js"></script>
+    <script src="/Scripts/Instructors/instructors-repository.js"></script>
+    <script src="/Scripts/Instructors/instructors-controller.js"></script>
+    <script src="/Scripts/Classes/classes-repository.js"></script>
+    <script src="/Scripts/Classes/days-repository.js"></script>
+    <script src="/Scripts/Classes/classes-controller.js"></script>
+    <script src="/Scripts/Account/account-repository.js"></script>
+    <script src="/Scripts/Account/account-controller.js"></script>
+    <script src="/Scripts/Shared/services/GravatarUrlBuilder.js"></script>
+    <script src="/Scripts/Shared/directives/gravatar.js"></script>
+    <script src="/Scripts/Shared/directives/class-row.js"></script>
+    <script src="/Scripts/Classes/class-table-body.js"></script>
+    <script src="/Scripts/Classes/my-scoped-directive.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="navbar navbar-default">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav">
+                        <li><a class="navbar-brand" href="/Registration">Registration</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/Registration/Courses">Browse Catalog</a></li>
+                        <li><a href="/Registration/Instructors">Browse Instructors</a></li>
+                        <li><a href="/Registration/Classes">Browse Classes</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Registration/CreateAccount">Create Account</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+@*        <div ng-init="title = 'Hello World'">
+            <h2 id="appTitle">{{title}}</h2>
+            <button id="newAppTitle" ng-click="setAppTitle('App 2.0')">
+                Upgrade me!</button>
+            <div my-scoped-directive msd-title="I'm a directive, within the app 
+{{title}}">
+                <h4 id="directiveTitle">{{title}}</h4>
+                <button id="newDirTitle" ng-click="setDirectiveTitle('bob')">
+                    Bob 
+                    it!</button>
+            </div>
+        </div>*@
+        <div ng-view></div>
+    </div>
+</body>
+</html>

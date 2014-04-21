@@ -1,0 +1,14 @@
+﻿@model RegistrationAngular.Models.Artefact
+
+@{
+    ViewBag.Title = "Artefact";
+}
+
+<h2>@ViewBag.Title</h2>
+<p><h2>@Model.Name</h2></p>
+
+<div id="barcode">
+    @RenderSection("Barcode", false)
+</div>
+
+

@@ -1,0 +1,18 @@
+﻿<table class="table table-condensed" style="table-layout: fixed; border: white; border-collapse: separate; border-spacing: 2px;">
+        <thead>
+            <tr>
+                <th style="text-align: center" ng-repeat="day in dayHeadings">
+                    {{day}}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="schoolDay in schoolDays">
+                <td ng-repeat="period in schoolDay" class="periodCell {{period.subject.bgColour}}" 
+                    ng-click="sayHi({period:period})" colspan="{{period.blocks}}" 
+                    ng-class="{'cellHover' : hasName({period: period})}">
+                    {{period.subject.name}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
